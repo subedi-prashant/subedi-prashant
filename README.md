@@ -1,4 +1,60 @@
 ![MasterHead](https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif)
+
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #1e1e1e;
+  display: grid;
+  place-items: center;
+  font-family: "Kanit", sans-serif;
+}
+
+div {
+  position: relative;
+  font-size: 5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 80px;
+  cursor: pointer;
+}
+
+:root {
+  --clr: #1af7ff;
+}
+
+.text {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
+  transition: 0.1s ease;
+  transition-delay: 0.25s;
+}
+
+.hover-text {
+  position: absolute;
+  inset: 0;
+  width: 0%;
+  color: var(--clr);
+  overflow: hidden;
+  border-right: 6px solid var(--clr);
+  transition: 0.5s ease-in-out;
+}
+
+div:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 40px var(--clr));
+}
+div:hover .text {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0);
+}
+</style>
 <h1 align="center">Hi 👋, I'm Prashant Subedi</h1>
 <h3 align="center">A passionate Developer from Nepal</h3>
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
@@ -12,6 +68,11 @@
 - 📫 How to reach me **prashantsubedi11@gmail.com**
 
 - ⚡ Fun fact **I think I am funny**
+
+<div>
+      <span class="text">&nbsp;Prashant&nbsp;</span>
+      <span class="hover-text">&nbsp;Prashant&nbsp;</span>
+</div>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
