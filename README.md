@@ -19,12 +19,10 @@
 <a href="https://linkedin.com/in/subedi-prashant" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="subedi-prashant" height="30" width="40" /></a>
 <a href="https://instagram.com/subedi_prashant" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="subedi_prashant" height="30" width="40" /></a>
 </p>
-<a href="https://github.com/subedi-prashant/subedi-prashant/blob/main/header.svg">
+
 <div align="center">
 	<br>
-	<a href="https://github.com/sindresorhus/css-in-readme-like-wat/blame/main/header.svg">
 		<img src="header.svg" width="800" height="400" alt="Click to see the source">
-	</a>
 	<br>
 </div>
 
