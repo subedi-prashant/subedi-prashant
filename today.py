@@ -13,7 +13,7 @@ import hashlib
 HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
 USER_NAME = os.environ['USER_NAME']
 ARCHIVE_OWNER_ID = os.environ.get('ARCHIVE_OWNER_ID', '')
-BIRTH_DATE = datetime.datetime.strptime(os.environ.get('BIRTH_DATE', '2000-03-30'), '%Y-%m-%d')
+BIRTH_DATE = datetime.datetime(2000, 3, 30)
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
 
 

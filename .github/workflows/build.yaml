@@ -34,7 +34,6 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ github.repository_owner }}
-          BIRTH_DATE: ${{ secrets.BIRTH_DATE || secrets.BIRTH_DAY }}
         run: python today.py
       - name: Commit
         run: |-
