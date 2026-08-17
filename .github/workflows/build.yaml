@@ -32,7 +32,7 @@ jobs:
         run: python -m pip install -r cache/requirements.txt
       - name: Update README file
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           USER_NAME: ${{ github.repository_owner }}
         run: python today.py
       - name: Commit

@@ -10,7 +10,10 @@ import hashlib
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
+TOKEN = os.environ.get('ACCESS_TOKEN') or os.environ.get('GITHUB_TOKEN')
+if not TOKEN:
+    raise KeyError('Set ACCESS_TOKEN or GITHUB_TOKEN to run today.py')
+HEADERS = {'authorization': 'token ' + TOKEN}
 USER_NAME = os.environ['USER_NAME']
 ARCHIVE_OWNER_ID = os.environ.get('ARCHIVE_OWNER_ID', '')
 BIRTH_DATE = datetime.datetime(2000, 3, 30)
