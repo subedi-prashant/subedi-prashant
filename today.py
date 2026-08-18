@@ -6,12 +6,24 @@ from lxml import etree
 import time
 import hashlib
 
+# The workflow must provide a PAT/GitHub App token that can access the profile data.
+# The default GITHUB_TOKEN in Actions is not suitable for `user(login: ...)` GraphQL
+# queries in this script and will trigger 401 "Bad credentials" responses.
 # Fine-grained personal access token with All Repositories access:
 # Account permissions: read:Followers, read:Starring, read:Watching
 # Repository permissions: read:Commit statuses, read:Contents, read:Issues, read:Metadata, read:Pull Requests
 # Issues and pull requests permissions not needed at the moment, but may be used in the future
-HEADERS = {'authorization': 'token '+ os.environ['ACCESS_TOKEN']}
-USER_NAME = os.environ['USER_NAME']
+ACCESS_TOKEN = os.environ.get('ACCESS_TOKEN', '').strip()
+if not ACCESS_TOKEN:
+    raise RuntimeError('ACCESS_TOKEN is not set. Add a PAT to the repository secrets and pass it to the workflow.')
+
+HEADERS = {
+    'Authorization': f'Bearer {ACCESS_TOKEN}',
+    'Accept': 'application/vnd.github+json',
+}
+USER_NAME = os.environ.get('USER_NAME', '').strip()
+if not USER_NAME:
+    raise RuntimeError('USER_NAME is not set. Configure the workflow to pass the repository owner or username.')
 ARCHIVE_OWNER_ID = os.environ.get('ARCHIVE_OWNER_ID', '')
 BIRTH_DATE = datetime.datetime(2000, 3, 30)
 QUERY_COUNT = {'user_getter': 0, 'follower_getter': 0, 'graph_repos_stars': 0, 'recursive_loc': 0, 'graph_commits': 0, 'loc_query': 0}
