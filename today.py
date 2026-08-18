@@ -323,10 +323,18 @@ def force_close_file(data, cache_comment):
 
 def stars_counter(data):
     """
-    Count total stars in repositories owned by me
+    Count total stars in repositories owned by me.
+    Some repositories may return a null stargazers object in GraphQL responses,
+    so treat those as zero instead of crashing the whole workflow.
     """
     total_stars = 0
-    for node in data: total_stars += node['node']['stargazers']['totalCount']
+    for node in data:
+        repo = node.get('node') if isinstance(node, dict) else None
+        if not repo:
+            continue
+        stargazers = repo.get('stargazers')
+        if isinstance(stargazers, dict):
+            total_stars += int(stargazers.get('totalCount', 0) or 0)
     return total_stars
 
 
