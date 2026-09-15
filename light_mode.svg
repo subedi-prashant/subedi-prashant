@@ -79,13 +79,13 @@ text, tspan {white-space: pre;}
 <tspan x="425" y="356" class="label">Cloud</tspan><tspan x="545" class="value">Azure · Docker · GitHub Actions</tspan>
 
 <tspan x="425" y="398" class="section">CONNECT</tspan>
-<tspan x="425" y="426" class="label">GitHub</tspan><tspan x="545" class="accent">@subedi-prashant</tspan><tspan class="meta"> · </tspan><tspan class="value" id="repo_data">18</tspan><tspan class="meta"> repos · </tspan><tspan class="value" id="follower_data">30</tspan><tspan class="meta"> followers</tspan>
+<tspan x="425" y="426" class="label">GitHub</tspan><tspan x="545" class="accent">@subedi-prashant</tspan><tspan class="meta"> · </tspan><tspan class="value" id="repo_data">19</tspan><tspan class="meta"> repos · </tspan><tspan class="value" id="follower_data">30</tspan><tspan class="meta"> followers</tspan>
 <tspan x="425" y="452" class="label">Portfolio</tspan><tspan x="545" class="accent">prashantsubedi.me</tspan>
 <tspan x="425" y="478" class="label">LinkedIn</tspan><tspan x="545" class="accent">/in/subedi-prashant</tspan>
 <tspan x="425" y="504" class="label">Email</tspan><tspan x="545" class="accent">prashantsubedi11@gmail.com</tspan>
 
 <tspan x="425" y="528" class="meta">Football · Gaming · Music · Movies</tspan>
-<tspan x="955" y="554" text-anchor="end"><tspan class="label">Uptime</tspan><tspan class="meta"> · </tspan><tspan class="value" id="age_data">26 years, 5 months, 11 days</tspan></tspan>
+<tspan x="955" y="554" text-anchor="end"><tspan class="label">Uptime</tspan><tspan class="meta"> · </tspan><tspan class="value" id="age_data">26 years, 5 months, 15 days</tspan></tspan>
 <!-- <tspan x="425" y="410" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Portfolio</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">hello@yourdomain.dev</tspan> -->
 <!-- <tspan x="425" y="430" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Work</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">prashant.subedi@maitriservices.com</tspan> -->
 </text>
