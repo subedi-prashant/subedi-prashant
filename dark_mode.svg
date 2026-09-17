@@ -85,7 +85,7 @@ text, tspan {white-space: pre;}
 <tspan x="425" y="504" class="label">Email</tspan><tspan x="545" class="accent">prashantsubedi11@gmail.com</tspan>
 
 <tspan x="425" y="528" class="meta">Football · Gaming · Music · Movies</tspan>
-<tspan x="955" y="554" text-anchor="end"><tspan class="label">Uptime</tspan><tspan class="meta"> · </tspan><tspan class="value" id="age_data">26 years, 5 months, 17 days</tspan></tspan>
+<tspan x="955" y="554" text-anchor="end"><tspan class="label">Uptime</tspan><tspan class="meta"> · </tspan><tspan class="value" id="age_data">26 years, 5 months, 18 days</tspan></tspan>
 <!-- <tspan x="425" y="410" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Portfolio</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">hello@yourdomain.dev</tspan> -->
 <!-- <tspan x="425" y="430" class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">Work</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">prashant.subedi@maitriservices.com</tspan> -->
 </text>
