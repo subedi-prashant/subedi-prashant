@@ -64,7 +64,7 @@ text, tspan {white-space: pre;}
 </text>
 <text x="425" y="42" font-size="16px">
 <tspan x="425" y="42" class="title">Prashant Subedi</tspan>
-<tspan x="425" y="67" class="subtitle">Software Engineer · .NET &amp; React</tspan>
+<tspan x="425" y="67" class="subtitle">Senior Software Engineer · .NET &amp; React</tspan>
 
 <tspan x="425" y="106" class="section">ABOUT</tspan>
 <tspan x="425" y="134" class="label">Company</tspan><tspan x="545" class="value">Maitri Services</tspan>
@@ -80,7 +80,7 @@ text, tspan {white-space: pre;}
 
 <tspan x="425" y="398" class="section">CONNECT</tspan>
 <tspan x="425" y="426" class="label">GitHub</tspan><tspan x="545" class="accent">@subedi-prashant</tspan><tspan class="meta"> · </tspan><tspan class="value" id="repo_data">22</tspan><tspan class="meta"> repos · </tspan><tspan class="value" id="follower_data">30</tspan><tspan class="meta"> followers</tspan>
-<tspan x="425" y="452" class="label">Portfolio</tspan><tspan x="545" class="accent">prashantsubedi.me</tspan>
+<tspan x="425" y="452" class="label">Portfolio</tspan><tspan x="545" class="accent">subedi-prashant.com.np</tspan>
 <tspan x="425" y="478" class="label">LinkedIn</tspan><tspan x="545" class="accent">/in/subedi-prashant</tspan>
 <tspan x="425" y="504" class="label">Email</tspan><tspan x="545" class="accent">prashantsubedi11@gmail.com</tspan>
 
